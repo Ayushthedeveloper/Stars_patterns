@@ -116,3 +116,30 @@ for i in range(n):
         print("*", end=" ")
     print()
 
+# PALINDROME TRIANGLE
+
+n = 5
+for i in range(n):
+    for j in range(i, n):
+        print(" ", end=" ")
+    for j in range(i):
+        print("*", end=" ")
+    for j in range(i+1):
+        print("*", end=" ")
+    print()
+print()
+#  Hollow triangle
+
+n = 5
+for i in range(1, n):
+    for j in range(1,8):
+        if i == 4 or i+j == 5 or j-i == 3:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+
+
+
+
