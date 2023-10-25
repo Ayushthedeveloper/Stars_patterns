@@ -136,7 +136,7 @@ try:
 
         n = int(input("Give the number of rows"))
         for i in range(1, n):
-            for j in range(1, 8):
+            for j in range(1, 8 ):
                 if i == 4 or i + j == 5 or j - i == 3:
                     print("*", end=" ")
                 else:
